@@ -1,0 +1,11 @@
+{
+  "name": "grab-pdx-reporter-data",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A script to scrape PDXReporter reports into JSON",
+  "main": "grab-pdx-reporter-data/grab-pdx-reporter-data.js",
+  "repository": "git@github.com:afresh1/PDXReporterUtils.git",
+  "dependencies": {
+    "cheerio": ">= 0"
+  }
+}
