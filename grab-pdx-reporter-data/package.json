@@ -6,6 +6,8 @@
   "main": "grab-pdx-reporter-data/grab-pdx-reporter-data.js",
   "repository": "git@github.com:afresh1/PDXReporterUtils.git",
   "dependencies": {
-    "cheerio": ">= 0"
+    "fs": ">= 0",
+    "cheerio": ">= 0",
+    "https": ">= 0"
   }
 }
