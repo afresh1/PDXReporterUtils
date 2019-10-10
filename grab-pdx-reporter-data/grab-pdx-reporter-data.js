@@ -22,7 +22,7 @@ if (rawData) {
 /* and you may have noticed this is an ugly hack */
 var markers = getMarkers(rawData);
 //console.log(markers);
-console.log(JSON.stringify(markers));
+console.log(JSON.stringify(markers, null, 2));
 }
 else {
 
@@ -42,9 +42,7 @@ https.get('https://www.portlandoregon.gov/trackit/devicemap/', (res) => {
       //console.log(rawData);
       /* now we grab the markers and output them as JSON */
       var markers = getMarkers(rawData);
-      console.log(JSON.stringify(markers));
-      //const parsedData = JSON.parse(rawData);
-      //console.log(parsedData);
+      console.log(JSON.stringify(markers, null, 2));
     } catch (e) {
       console.error(e.message);
     }
